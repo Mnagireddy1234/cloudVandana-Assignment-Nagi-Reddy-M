@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>SurveyForm</title>
+</head>
+<body>
+	<center>
+		<form>
+		       <fieldset style="width:900px; height:600px; background-color:skyblue;">
+		           <h1 style="color:black;"><bold>CUSTOMER SURVEY FORM</bold></h1>
+		           <fieldset style="width:500px; height:400px; background-color:white;">
+		              <table>
+		              <br></br>
+		                 <tr>
+		                       <td><label>First Name<sup style="color:red;">*</sup></label></td>
+		                       <td>:</td>
+		                       <td><input pattern="[a-zA-Z]{2,10}" required></input></td>
+		                    
+		                 </tr>
+		                 <tr>
+		                       <td><label>Last Name<sup style="color:red;">*</sup></label></td>
+		                       <td>:</td>
+		                       <td><input pattern="[a-zA-Z]{2,10}" required></input></td>
+		                 </tr>
+		                 <tr>
+		                       <td><label>Date Of Birth<sup style="color:red;">*</sup></label></td>
+		                       <td>:</td>
+		                       <td><input type="date" required></input></td>
+		                 </tr>
+		                  <tr>
+		                       <td><label for="country">Country<sup style="color:red;">*</sup></label></td>
+		                       <td>:</td>
+		                       <td><select name="country" id="country" required>
+		                         <option value="">-None-</option>
+		                         <option value="India">India</option>
+		                         <option value="US">US</option>
+		                         <option value="UK">UK</option>
+		                         <option value="Dubai">Dubai</option>
+		                         <option value="Others">Others</option>
+		                       </select></td>  
+		                   </tr>
+		                   <tr>
+		                       <td><label>Gender<sup style="color:red;">*</sup></label></td>
+		                       <td>:</td>
+		                       <td><input type="radio" name="nag" required>Male
+		                       <input type="radio" name="nag">Female</input></td> 
+		                   </tr>
+		                   <tr>
+		                      <td><label>Profession<sup style="color:red;">*</sup></label></td>
+		                      <td>:</td>
+		                      <td><input type="text" required></input></td>
+		                   </tr>
+		                   <tr>
+		                      <td><label>Email<sup style="color:red;">*</sup></label></td>
+		                      <td>:</td>
+		                      <td><input type="email" required></input></td>
+		                   </tr>
+		                   <tr>
+		                      <td><label>Mobile Number<sup style="color:red;">*</sup></label></td>
+		                      <td>:</td>
+		                      <td><input pattern="[0-9]{10}"required></input></td>		                      
+		                   </tr>
+		                  <tr>
+						  <td></td>
+						  <td></td>
+						   <td><input type="submit">
+						       <input type="submit" value="clear"></input>
+						   </td>
+						 </tr>
+		                   
+		              </table>
+		           </fieldset>
+		       </fieldset>
+		</form>
+	</center>
+
+</body>
+</html>
